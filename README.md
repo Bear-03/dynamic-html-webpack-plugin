@@ -15,28 +15,28 @@ npm i -D dynamic-html-webpack-plugin
 #### Webpack Config
 ```js
 module.exports = {
-		entry: {
-			foo: "src/scripts/foo.js",
-			bar: "src/scripts/bar.js",
-			utils: "src/scripts/utils.js",
-			utils2: "src/scripts/utils2.js",
-			common: "src/scripts/common.js"
-		},
-		plugins: [
-			new DynamicHtmlWebpackPlugin({
-				dir: "src/pages",
-				additionalChunks: {
-					all: "common",
-					foo: ["utils", "utils2"],
-					bar: "utils"
-				},
-				commonOptions: {
-					scriptLoading: "defer",
-					cache: false
-				}
-			})
-		]
-	};
+  entry: {
+    foo: "src/scripts/foo.js",
+	bar: "src/scripts/bar.js",
+	utils: "src/scripts/utils.js",
+    utils2: "src/scripts/utils2.js",
+	common: "src/scripts/common.js"
+  },
+  plugins: [
+    new DynamicHtmlWebpackPlugin({
+      dir: "src/pages",
+      additionalChunks: {
+        all: "common",
+        foo: ["utils", "utils2"],
+        bar: "utils"
+      },
+      commonOptions: {
+        scriptLoading: "defer",
+        cache: false
+      }
+    })
+  ]
+};
 ```
 #### File Tree
 ```
