@@ -9,7 +9,8 @@
   },
   "keywords": [
     "HtmlWebpackPlugin",
-    "Dynamic add HtmlWebpackPlugin"
+    "Dynamic add HtmlWebpackPlugin",
+    "Webpack"
   ],
   "author": "Bear_03#2935",
   "license": "MIT",

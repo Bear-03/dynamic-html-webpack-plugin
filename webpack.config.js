@@ -12,7 +12,7 @@ module.exports = (_, options) => {
 		},
 		output: {
 			path: path.resolve(__dirname, "test/dist"),
-			filename: `scripts/[name].bundle${!devmode ? ".[contenthash]" : ""}.js`
+			filename: "scripts/[name].bundle.js"
 		},
 		resolve: {
 			alias: {
