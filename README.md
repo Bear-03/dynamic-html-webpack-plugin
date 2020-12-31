@@ -42,14 +42,14 @@ module.exports = {
 ```
 src/
  ├── pages/
- │	  ├── foo.html
- │	  └── bar.html
+ │    ├── foo.html
+ │    └── bar.html
  └── scripts/
-	  ├── foo.js
-	  ├── bar.js
-	  ├── common.js
-	  ├── utils.js
-	  └── utils2.js
+      ├── foo.js
+      ├── bar.js
+      ├── common.js
+      ├── utils.js
+      └── utils2.js
 webpack.config.js
 ```
 - `foo.html` will reference **foo.js**, **common.js**, **utils.js** and **utils2.js**
