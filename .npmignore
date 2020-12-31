@@ -1,5 +1,4 @@
 test/
-.eslint.json
+.eslintrc.json
 .gitignore
 webpack.config.js
-README.md

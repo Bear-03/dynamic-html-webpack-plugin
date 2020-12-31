@@ -65,4 +65,4 @@ webpack.config.js
 | `additionalChunks.all` | `{String\|String[]}`                  | `undefined` | Chunks **all** pages will share and reference.                                    |
 | `commonOptions`        | `{Object}`                            | `{}`        | Other **HtmlWebpackPLugin** options that will be applied to all pages.            |
 
-> Note: Properties inside `additionalChunks` should have the same name as the `.html` file they are gonna be added to (except `additionalChunks.all`)
+> **Note:** Properties inside `additionalChunks` should have the same name as the `.html` file they are gonna be added to (except `additionalChunks.all`)
