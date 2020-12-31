@@ -17,10 +17,10 @@ npm i -D dynamic-html-webpack-plugin
 module.exports = {
   entry: {
     foo: "src/scripts/foo.js",
-	bar: "src/scripts/bar.js",
-	utils: "src/scripts/utils.js",
+    bar: "src/scripts/bar.js",
+    utils: "src/scripts/utils.js",
     utils2: "src/scripts/utils2.js",
-	common: "src/scripts/common.js"
+    common: "src/scripts/common.js"
   },
   plugins: [
     new DynamicHtmlWebpackPlugin({
