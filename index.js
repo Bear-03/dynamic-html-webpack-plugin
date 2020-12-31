@@ -10,7 +10,7 @@ class DynamicHtmlWebpackPlugin {
 	/**
 	 * @param {{}} options - Config object
 	 * @param {String} options.dir - Directory where the html files are located.
-	 * @param {{}} options.additionalChunks - Entry chunks that will be added to the compiled html
+	 * @param {Object.<String, String|String[]>} options.additionalChunks - Entry chunks that will be added to the compiled html
 	 * file (chunk with the name of the template is included by default).
 	 * @param {String|String[]} aditionalChunks.all - Chunks shared between all html files
 	 * @param {{}} options.commonOptions - Other HtmlWebpackPlugin options that wil be shared between all html files
