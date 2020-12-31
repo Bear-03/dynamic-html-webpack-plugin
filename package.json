@@ -7,7 +7,10 @@
     "build": "webpack --mode development",
     "build:prod": "webpack --mode production"
   },
-  "keywords": ["HtmlWebpackPlugin", "Dynamic add HtmlWebpackPlugin"],
+  "keywords": [
+    "HtmlWebpackPlugin",
+    "Dynamic add HtmlWebpackPlugin"
+  ],
   "author": "Bear_03#2935",
   "license": "ISC",
   "dependencies": {
