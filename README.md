@@ -52,6 +52,7 @@ src/
       └── utils2.js
 webpack.config.js
 ```
+##### When Compiled
 - `foo.html` will reference **foo.js**, **common.js**, **utils.js** and **utils2.js**
 - `bar.html` will reference **bar.js**, **common.js** and **utils.js**
 
