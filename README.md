@@ -1,5 +1,5 @@
 # Dynamic HtmlWebpackPlugin
-A webpack plugin that reads all the `.html` files in a directory and adds an HtmlWebpackPlugin for each one of them automatically.
+A webpack plugin that reads all the `.html` files in a directory and adds an [HtmlWebpackPlugin](https://github.com/jantimon/html-webpack-plugin) for each one of them automatically.
 
 This removes the need to manually add an HtmlWebpackPlugin for each `.html` file used for the project, which makes development and code maintenance easier.
 
