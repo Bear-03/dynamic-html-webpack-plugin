@@ -1,6 +1,6 @@
 {
   "name": "dynamic-html-webpack-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A webpack plugin that reads all the html files in a given directory and adds an HtmlWebpackPlugin for each one of them automatically.",
   "main": "index.js",
   "scripts": {
