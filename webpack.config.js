@@ -4,7 +4,7 @@ const DynamicHtmlWebpackPlugin = require(".");
 module.exports = (_, options) => {
 	const devmode = options.mode === "development";
 	return {
-		// Entries for specific html files must be named as the html file.
+		// Entries for specific html files must be named as the html file if addChunksMatchingPageName isn't false (default is true).
 		entry: {
 			index: "scripts/index.js",
 			about: "scripts/about.js",
