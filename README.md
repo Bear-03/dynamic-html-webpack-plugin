@@ -58,13 +58,13 @@ webpack.config.js
 
 ### Options
 
-| Name                        | Type                                | Default     | Description                                                                       |
-|-----------------------------|-------------------------------------|-------------|-----------------------------------------------------------------------------------|
-| `dir`                       | `String`                            | `""`        | Directory where the `.html` files are located                                     |
-| `additionalChunks`          | `Object.<String, String\|String[]>` | `{}`        | Chunks each `.html` page will have, in addition to the one sharing its file name. |
-| `additionalChunks.all`      | `String\|String[]`                  | `undefined` | Chunks **all** pages will share and reference.                                    |
-| `commonOptions`             | `Object`                            | `{}`        | Other **HtmlWebpackPLugin** options that will be applied to all pages.            |
+| Name                        | Type                                | Default     | Description                                                                         |
+|-----------------------------|-------------------------------------|-------------|-------------------------------------------------------------------------------------|
+| `dir`                       | `String`                            | `""`        | Directory where the `.html` files are located                                       |
+| `additionalChunks`          | `Object.<String, String\|String[]>` | `{}`        | Chunks each `.html` page will have, in addition to the one sharing their file name. |
+| `additionalChunks.all`      | `String\|String[]`                  | `undefined` | Chunks **all** pages will share and reference.                                      |
+| `commonOptions`             | `Object`                            | `{}`        | Other **HtmlWebpackPLugin** options that will be applied to all pages.              |
 | `addChunksMatchingPageName` | `Bool`                              | `true`      | If true, the entry chunk that shares names with an .html file will automatically be added to that file |
 
 
-> **Note:** Properties inside `additionalChunks` should have the same name as the `.html` file they are gonna be added to (except `additionalChunks.all`)
+> **Note:** Properties inside `additionalChunks` should have the same name as the `.html` file they are gonna be added to (except for `additionalChunks.all`)
